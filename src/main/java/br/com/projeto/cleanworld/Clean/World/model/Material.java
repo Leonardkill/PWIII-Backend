@@ -1,4 +1,4 @@
-package model;
+package br.com.projeto.cleanworld.Clean.World.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -20,10 +20,10 @@ public class Material {
 	@Column(name="idMaterial")
 	@GeneratedValue
 	@Id
-	private Long idMaterial;
+	private Integer idMaterial;
 	
 	@Column(name="idTipoMaterial")
-	private String tipoMaterial;
+	private Integer tipoMaterial;
 	
 	@Column(name="dsMaterial")
 	private String dsMaterial;
